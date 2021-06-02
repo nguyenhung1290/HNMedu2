@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+    <TextView
+        android:id="@+id/txtdangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:text="Đăng nhập vào HNMedu2,"/>
+    <TextView
+        android:id="@+id/txtneuquenmatkhau"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_below="@+id/txtdangnhap"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Nếu quên mật khẩu, liên hệ 0865661290 để cấp lại mật khẩu."/>
+
+    <EditText
+        android:id="@+id/edttendangnhap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/txtneuquenmatkhau"
+        android:layout_marginTop="60dp"
+        android:hint="Tên đăng nhập" />
+
+    <EditText
+        android:id="@+id/edtmatkhaudangnhap"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/edttendangnhap"
+        android:layout_marginTop="19dp"
+        android:hint="Mật khẩu" />
+
+    <Button
+        android:id="@+id/btndangnhap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtmatkhaudangnhap"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Ðăng nhập" />
+
+    <Button
+        android:id="@+id/btndangki"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtmatkhaudangnhap"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="16dp"
+        android:text="Ðăng kí" />
+    <com.startapp.sdk.ads.banner.Banner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

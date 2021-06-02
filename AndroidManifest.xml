@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nguyenhung1290.hnmedu2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/iconhungnm"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Hnmedu2">
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID"
+            android:value="209886933" />
+        <activity android:name=".MainActivity4"></activity>
+        <activity android:name=".MainActivity3" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7601848265461189~3186937288"/>
+    </application>
+
+</manifest>
