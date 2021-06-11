@@ -15,12 +15,11 @@
         android:textAllCaps="true"
         android:text="Cơ sở dữ liệu HÙNGNMEDU"/>
 
-    <ImageView
+   <com.ortiz.touchview.TouchImageView
         android:id="@+id/imageView2"
         android:layout_below="@+id/txtxemhinh"
         android:layout_width="match_parent"
-        android:layout_height="560dp"
-        android:scaleType="fitXY"
+        android:layout_height="wrap_content"
         tools:srcCompat="@tools:sample/avatars" />
     <EditText
         android:id="@+id/edtxemhinh"
